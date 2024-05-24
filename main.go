@@ -9,10 +9,12 @@ import (
 
 func main() {
 	database.DBconn()
+
 	app := fiber.New()
 
 	app.Use(cors.New(cors.Config{
 		AllowCredentials: true,
+		AllowOrigins:     "http://localhost:8000",
 	}))
 
 	routes.SetupRoutes(app)
