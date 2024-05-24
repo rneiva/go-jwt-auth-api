@@ -1,6 +1,13 @@
-# go-rest-with-fiber
+# go-jwt-auth-api
 
-JWT Authentication in Golang REST-APIs using Fiber Web Framework, PostgreSQL DB and GORM.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![](https://img.shields.io/github/go-mod/go-version/rneiva/go-jwt-auth-api)
+
+Simple Rest API in Golang with:
+
+- JWT Authentication
+- Fiber Web Framework
+- PostgreSQL DB and GORM
 
 ### Prerequisites:
 
