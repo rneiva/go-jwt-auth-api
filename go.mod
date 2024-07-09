@@ -3,7 +3,7 @@ module github.com/rneiva/go-jwt-auth-api
 go 1.22.3
 
 require (
-	github.com/gofiber/fiber/v2 v2.52.4
+	github.com/gofiber/fiber/v2 v2.52.5
 	github.com/golang-jwt/jwt v3.2.2+incompatible
 	golang.org/x/crypto v0.21.0
 	gorm.io/driver/postgres v1.5.7
